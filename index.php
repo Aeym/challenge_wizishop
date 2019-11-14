@@ -1,6 +1,6 @@
 <?php
 
-// you can change here the product price, title, and photos link
+// here you can change here the product price, title, and photos links
 $price = 6299;
 $title = "VTT electric Haibike Xduro";
 $photos = array(
@@ -97,7 +97,7 @@ if (isset($_COOKIE["quantityCart"])) {
                 <br><br>Sed ultrices et eros sit amet consequat. Nam tincidunt dui ac leo egestas sagittis. Phasellus imperdiet odio id justo interdum interdum. Aliquam ornare ipsum quis ligula mattis, ut vestibulum arcu suscipit. Duis purus nulla, malesuada ut tristique ac, convallis sit amet lectus. Cras mattis sollicitudin elit at placerat. Suspendisse at orci sit amet sapien vestibulum maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus et magna ac augue viverra feugiat. Mauris maximus diam interdum varius laoreet. Sed rutrum erat massa, vitae mattis orci porta at. Sed in aliquet neque. In a nulla sed urna convallis sollicitudin et nec ex. Nunc eu urna eu arcu egestas vulputate eu eu ante.</p>
         </div>
         <?php
-
+        // if the cart is not empty, it is add at the bottom of the page. The page will then load at the bottom.
         if (isset($_COOKIE["quantityCart"])) {
             echo ("
                         <div class=\"row\" style=\"margin-top: 5vh;\" id=\"cart\">
